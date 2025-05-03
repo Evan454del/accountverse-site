@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AccountVerse ♕ 🔐💸🎶📦🌎</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #0d0d0d;
+      color: white;
+      font-family: 'Arial', sans-serif;
+    }
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+      background: linear-gradient(135deg, #2b0057, #ff00ff);
+      animation: fadeIn 2s ease-in-out;
+    }
+    header img {
+      max-width: 200px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+    header h1 {
+      font-size: 2.5em;
+      animation: glitch 2s infinite;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes glitch {
+      0% { text-shadow: 2px 2px red; }
+      50% { text-shadow: -2px -2px blue; }
+      100% { text-shadow: 2px 2px red; }
+    }
+    section {
+      padding: 50px 20px;
+    }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
+    .service-card {
+      background-color: #1c1c1c;
+      padding: 20px;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+    .service-card:hover {
+      transform: scale(1.05);
+    }
+    .buy-buttons {
+      margin-top: 10px;
+    }
+    .buy-buttons button {
+      background-color: #6200ea;
+      color: white;
+      border: none;
+      padding: 10px;
+      margin-right: 5px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    audio {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="assets/logo.gif" alt="Logo">
+  <h1>AccountVerse ♕ 🔐💸🎶📦🌎</h1>
+  <audio autoplay loop>
+    <source src="assets/a-new-kind-love.mp3" type="audio/mpeg">
+  </audio>
+</header>
+
+<section id="services">
+  <h2 style="text-align: center; font-size: 2.5em; margin-bottom: 40px;">Nos Services Premium</h2>
+  <div class="services-grid">
+    <div class="service-card">
+      <h3>Spotify Premium</h3>
+      <p>Musique sans pub, en illimité et hors connexion. Parfait pour vos trajets ou vos sessions gaming.</p>
+      <div class="buy-buttons">
+        <button> Apple Pay</button>
+        <button>PayPal</button>
+      </div>
+    </div>
+    <div class="service-card">
+      <h3>Netflix</h3>
+      <p>Films, séries et documentaires en HD et 4K. Soirées parfaites garanties.</p>
+      <div class="buy-buttons">
+        <button> Apple Pay</button>
+        <button>PayPal</button>
+      </div>
+    </div>
+    <div class="service-card">
+      <h3>IPTV</h3>
+      <p>Chaînes du monde entier : sport, info, divertissement. Qualité HD et zapping rapide.</p>
+      <div class="buy-buttons">
+        <button> Apple Pay</button>
+        <button>PayPal</button>
+      </div>
+    </div>
+    <div class="service-card">
+      <h3>YouTube Premium</h3>
+      <p>Pas de pubs, lecture arrière-plan et YouTube Music inclus.</p>
+      <div class="buy-buttons">
+        <button> Apple Pay</button>
+        <button>PayPal</button>
+      </div>
+    </div>
+    <div class="service-card">
+      <h3>Crunchyroll</h3>
+      <p>Animés en illimité, simulcast et qualité HD.</p>
+      <div class="buy-buttons">
+        <button> Apple Pay</button>
+        <button>PayPal</button>
+      </div>
+    </div>
+    <div class="service-card">
+      <h3>NordVPN</h3>
+      <p>Connexion sécurisée, anonyme, et accès mondial à tous les contenus.</p>
+      <div class="buy-buttons">
+        <button> Apple Pay</button>
+        <button>PayPal</button>
+      </div>
+    </div>
+    <div class="service-card">
+      <h3>Duolingo Plus</h3>
+      <p>Apprenez sans pub, en mode hors ligne, avec des outils premium.</p>
+      <div class="buy-buttons">
+        <button> Apple Pay</button>
+        <button>PayPal</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="discord" style="text-align: center;">
+  <h2>Rejoins notre communauté !</h2>
+  <iframe src="https://discord.com/widget?id=1142970278992148480&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+</section>
+
+</body>
+</html>
